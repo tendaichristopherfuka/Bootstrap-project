@@ -1,0 +1,340 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*end of -CSS-*/
+body {
+    overflow-x: hidden;
+}
+
+/*nav*/
+nav {
+    height: 10vh;
+    background-color: rgb(26, 34, 78);
+    display: flex;
+    width: 100%;
+}
+
+nav h3 {
+    padding: 0 100px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/* end-of-nav */
+
+/* banner */
+.hero {
+    height: 100vh;
+    background-color: rgb(27, 188, 155);
+    text-align: center;
+
+}
+
+.hero #banner-img {
+    margin-top: 100px;
+}
+
+.hero-inner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: bold;
+}
+
+.hero .hero-inner img {
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hero-inner p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: regular;
+}
+
+nav ul li a:hover {
+    color: rgb(27, 188, 155);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* end of banner */
+
+/* portfolio */
+#Portfolio {
+    height: 100vh;
+    text-align: center;
+    margin-top: 90px;
+
+
+}
+
+#portfolio h2 {
+    text-align: center;
+    color: rgb(26, 34, 78);
+    font-size: 30px;
+    font-family: bold;
+    margin-top: 20px;
+}
+
+#portfolio img {
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    
+
+    
+}
+
+#portfolio .content {
+    display: flex;
+    width: 60%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    width: calc(100/3);
+}
+
+
+#portfolio .content img {
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+
+
+}
+
+/* end of portfolio */
+
+/* about */
+#about {
+    height: 80vh;
+    background-color: rgb(27, 188, 155);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+}
+
+#about h2 {
+    font-size: 30px;
+    padding-top: 100px;
+    font-family: bold;
+}
+
+#about #one {
+    margin-top: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+#about .text {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#about .text .text-inner {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#about a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px/10px;
+}
+
+/* end of about */
+
+/* contact */
+#contact {
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(26, 34, 78);
+    font-family: bold;
+}
+
+#contact #blue-star {
+    width: 20%;
+    margin-top: 10px;
+}
+
+#contact .contact-inner input {
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    border-color: rgba(26, 34, 78, 0.137);
+
+}
+
+#contact button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(27, 188, 155);
+    border-radius: 7px;
+    font-size: 15px;
+    float: left;
+    border: 1px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: rgb(255, 255, 255);
+}
+
+*:focus {
+    outline: none;
+}
+
+/* end of contact */
+
+/* footer */
+.footer {
+    height: 20vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(79, 81, 100);
+    display: flex;
+    color: rgb(255, 255, 255);
+
+    span {
+        color: rgb(27, 188, 155);
+        margin-top: 40px;
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+#footer-inner1 {
+    text-align: center;
+    margin-left: 90px;
+    font-family: regular;
+}
+
+#footer-inner1 h3 {
+    display: flex;
+    font-family: bold;
+
+}
+
+#footer-inner1 p {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    font-family: regular;
+    position: absolute;
+}
+
+
+#footer-inner2 {
+    text-align: center;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 300px;
+
+}
+
+#footer-inner2 h3 {
+    display: flex;
+    width: 60%;
+    font-family: bold;
+    position: absolute;
+
+
+}
+
+#footer-inner2 img {
+    margin-top: 30px;
+    padding: 0 10px;
+    text-align: center;
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: rgb(255, 255, 255);
+    border: 3px;
+    border-style: solid;
+    
+
+
+
+}
+
+#footer-inner3 {
+    display: flex;
+    text-align: center;
+    margin-left: 250px;
+
+}
+
+#footer-inner3 h3 {
+    display: flex;
+    width: 60%;
+    font-family: bold;
+    position: absolute;
+}
+
+#footer-inner3 p {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    font-family: regular;
+    position: absolute;
+    width: 260px;
+
+}
+
+
+
+h4 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 47, 78);
+    height: 5vh;
+    font-size: 10px;
+    text-align: center;
+    font-family: bold;
+}
+
+/* end of footer */
